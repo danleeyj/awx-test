@@ -1,0 +1,9 @@
+---
+- name: Testing playbook to reproduce issue \#6842
+  hosts: all
+  gather_facts: no
+
+  tasks:
+    - name: Display hostname
+      debug:
+        var: "{{ inventory_hostname }}"

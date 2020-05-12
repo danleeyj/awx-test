@@ -3,7 +3,6 @@
   hosts: all
   gather_facts: no
 
-  tasks:
     - name: Display hostname
       debug:
-        var: "{{ inventory_hostname }}"
+        var: 

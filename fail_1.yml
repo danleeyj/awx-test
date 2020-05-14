@@ -1,0 +1,3 @@
+---
+- name: Fail case \#1, contains no tasks keyword and content
+  hosts: all

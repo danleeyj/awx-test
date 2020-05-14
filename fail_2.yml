@@ -1,0 +1,5 @@
+---
+- name: Fail test case \#2, contains the tasks keyword without content
+  hosts: all
+
+  tasks:
